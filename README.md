@@ -1,4 +1,4 @@
-# NAS-RF
+# Zero-Cost Proxy for Adversarial Robustsness Evaluation
 Official Codes for the paper "Zero-Cost Proxy for Adversarial Robustsness Evaluation"
 
 Requirements:
@@ -10,12 +10,12 @@ To search for adversarially robust architectures:
 cd ./exps/NAS-RF
 python search_robust.py
 
-To test Kendall¡¯s Tau correlation coefficients of the previous zero-cost proxies:
+To test KendallÂ¡Â¯s Tau correlation coefficients of the previous zero-cost proxies:
 
 cd ./exps/NAS-RF
 python test_zero_cost_previous.py
 
-To test Kendall¡¯s Tau correlation coefficient of the proposed zero-cost proxy:
+To test KendallÂ¡Â¯s Tau correlation coefficient of the proposed zero-cost proxy:
 
 cd ./exps/NAS-RF
 python test_zero_cost_robust.py
